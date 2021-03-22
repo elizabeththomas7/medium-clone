@@ -1,0 +1,30 @@
+.blog-container {
+  padding: 9em;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  font-weight: 700;
+  font-size: 2.5em;
+  color: black;
+}
+.blog-author {
+  color: grey;
+  padding: 1em;
+}
+
+.blog-body {
+  font-size: 1.5em;
+  line-height: 1.6;
+}
+.blog-reactions {
+  padding-top: 1.5em;
+}
+.blog-image {
+  width: 30em;
+  padding: 1.5em;
+}
+.reactions-count {
+}

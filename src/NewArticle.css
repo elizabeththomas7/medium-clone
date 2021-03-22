@@ -1,0 +1,10 @@
+.container {
+  padding: 9em;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.form-items {
+  padding: 2em;
+  margin-bottom: 1rem;
+}

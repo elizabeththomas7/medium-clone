@@ -1,0 +1,42 @@
+.feed-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feedbody-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+}
+.feed-column-img {
+  width: 6em;
+}
+.article-author {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: black;
+}
+.article-title {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2em;
+  color: black;
+}
+.feedbody-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .feedbody-column {
+    display: none;
+  }
+  .feed-left {
+    display: none;
+  }
+  .feedbody-mobile {
+    display: inline;
+  }
+}

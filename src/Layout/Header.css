@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.header-user {
+  margin: 2em;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .feedbody-column {
+    display: none;
+  }
+  .feed-left {
+    display: none;
+  }
+  .feedbody-mobile {
+    display: inline;
+  }
+}
